@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+  }
+  
+  nav a:hover {
+    color: #0066cc;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+  }
+  footer {
+    background-color: rgb(4, 4, 54); /* Sets the background color to blue */
+    color: white; /* Ensures the text is white for contrast */
+    text-align: center; /* Centers the text inside the footer */
+    padding: 1rem; /* Adds some padding around the footer content */
+    margin-top: 2rem; /* Adds space above the footer */
+  }
+  
+  footer p {
+    margin: 0; /* Removes default margin from paragraphs */
+  }
+  h1 {
+    text-align: center; /* Centers the heading */
+  }
+  
+  h1 span {
+    color: rgb(222, 124, 5); /* Changes the color of the text inside the span */
+  }
+  .about-me {
+  background-color: blue; /* Sets the background color to blue */
+  color: white; /* Optional: Makes the text color white for better contrast */
+  padding: 2rem; /* Optional: Adds padding to make the section more spacious */
+}
+
+h1 {
+  text-align: center; /* Centers the heading */
+}
+
+h1 span {
+  color: yellow; /* Makes the name 'Castro Oriba' yellow */
+}
+
+    
