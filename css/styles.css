@@ -1,0 +1,66 @@
+/* Global CSS Variables */
+:root {
+    --primary-color: #FF5733;  /* Example of a primary color */
+    --secondary-color: #4CAF50;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+  }
+  
+  /* Basic Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Hero Image Section */
+  #hero {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Weather Section */
+  #weather {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .weather-icon::after {
+    content: "⛅";
+    margin-left: 10px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    #hero {
+      height: 200px;
+    }
+    #weather {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #weather {
+      font-size: 0.8rem;
+    }
+  }
+  

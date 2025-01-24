@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place - Uganda/Kampala</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <!-- You can add a navigation bar or header here if needed -->
+  </header>
+
+  <main>
+    <!-- Hero Image Section -->
+    <section id="hero">
+      <picture>
+        <!-- Small screens (up to 500px) will use hero-small.webp -->
+        <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+        
+        <!-- Medium screens (up to 1000px) will use hero-medium.webp -->
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+        
+        <!-- Large screens will use hero-large.webp -->
+        <img src="images/hero-large.webp" alt="Image of Uganda Map" width="500" height="250">
+      </picture>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather">
+      <h2>Weather <span class="weather-icon">⛅</span></h2>
+      <p id="temperature">Temperature: 10°C</p>
+      <p id="windspeed">Wind Speed: 20 km/h</p>
+      <p id="windchill">Wind Chill: <span id="windchill-result"></span></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; <span id="current-year"></span> | Last Modified: <span id="last-modified"></span></p>
+    </footer>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
+
+

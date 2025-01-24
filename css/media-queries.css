@@ -1,0 +1,11 @@
+/* Example for larger screen adjustments */
+@media (min-width: 1000px) {
+    #hero img {
+      max-width: 100%;
+    }
+  
+    #weather {
+      font-size: 1.2rem;
+    }
+  }
+  
